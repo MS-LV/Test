@@ -132,5 +132,6 @@ setInterval(() => {
         location.href = "index.html"
     }
 }, 1000);
+console.log(window.innerWidth);
 
 
