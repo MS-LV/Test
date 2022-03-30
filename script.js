@@ -37,8 +37,8 @@ xmlHttp.onload = function () {
             <div class="question__text">${num}. ${item.text}</div>
             <div class="question__variants">
                 <div class="question__var_items" data="true">${item.trues}</div>
-                <div class="question__var_items">${item.one}</div>
                 <div class="question__var_items">${item.two}</div>
+                <div class="question__var_items">${item.one}</div>
                 <div class="question__var_items">${item.three}</div>
             </div>
             `
@@ -49,16 +49,16 @@ xmlHttp.onload = function () {
             <div class="question__variants">
                 <div class="question__var_items">${item.one}</div>
                 <div class="question__var_items" data="true">${item.trues}</div>
-                <div class="question__var_items">${item.two}</div>
                 <div class="question__var_items">${item.three}</div>
+                <div class="question__var_items">${item.two}</div>
             </div>`
         } else if (random == 3) {
             wrapper.innerHTML += `
             <div class="question__items">
             <div class="question__text">${num}. ${item.text}</div>
             <div class="question__variants">
-                <div class="question__var_items">${item.one}</div>
                 <div class="question__var_items">${item.two}</div>
+                <div class="question__var_items">${item.one}</div>
                 <div class="question__var_items" data="true">${item.trues} </div>
                 <div class="question__var_items">${item.three}</div>
             </div>`
@@ -68,8 +68,8 @@ xmlHttp.onload = function () {
             <div class="question__items">
                 <div class="question__text">${num}. ${item.text}</div>
                 <div class="question__variants">
-                    <div class="question__var_items">${item.one}</div>
                     <div class="question__var_items">${item.two}</div>
+                    <div class="question__var_items">${item.one}</div>
                     <div class="question__var_items">${item.three} </div>
                     <div class="question__var_items" data="true"> ${item.trues}
                 </div>
