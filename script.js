@@ -11,6 +11,7 @@ let xmlHttp = new XMLHttpRequest(),
     subElement,
     random,
     minutes = 0,
+    restart = document.querySelector('.fixed__restart'),
     seconds = 0,
     numTrue = 0,
     numFalse = 0,
@@ -133,5 +134,8 @@ setInterval(() => {
     }
 }, 1000);
 console.log(window.innerWidth);
+restart.onclick = function () {
+    location.href = "index.html"
+}
 
 

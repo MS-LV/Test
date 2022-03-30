@@ -4,6 +4,7 @@
     margin: 0;
     border: 0;
     caret-color: transparent;
+    user-select: none;
 }
 *,
 *:before,
@@ -245,7 +246,6 @@ body {
     .question__var_items {
         padding: 10px;
         flex: 0 0 10%;
-        curent-color: transparent;
         text-align: center;
         margin: 10px;
         box-shadow: 0px 2px 5px #000;
