@@ -115,6 +115,8 @@ function fixBtnFunc() {
     else if (numTrue > 50) fixAlphabits.innerHTML = 'C';
     else if (numTrue > 40) fixAlphabits.innerHTML = 'D';
     else fixAlphabits.innerHTML = 'F';
+    minutes = 0;
+    seconds = -1;
 }
 fixBtn.onclick = fixBtnFunc;
 
@@ -132,7 +134,7 @@ setInterval(() => {
     if (minutes >= 10) {
         location.href = "index.html"
     }
-}, 1000);
+}, 100);
 console.log(window.innerWidth);
 restart.onclick = function () {
     location.href = "index.html"
