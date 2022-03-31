@@ -134,7 +134,7 @@ setInterval(() => {
     if (minutes >= 10) {
         location.href = "index.html"
     }
-}, 100);
+}, 1000);
 console.log(window.innerWidth);
 restart.onclick = function () {
     location.href = "index.html"
