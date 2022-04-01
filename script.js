@@ -117,6 +117,7 @@ function fixBtnFunc() {
     else fixAlphabits.innerHTML = 'F';
     minutes = 0;
     seconds = -1;
+    numTrue = 0;
 }
 fixBtn.onclick = fixBtnFunc;
 
